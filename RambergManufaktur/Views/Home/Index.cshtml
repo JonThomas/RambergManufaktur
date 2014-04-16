@@ -1,7 +1,17 @@
 ﻿@{
     ViewBag.Title = "Home Page";
 }
-
+@section Scripts{
+    <script type="text/javascript" src="@Url.Content("~/Scripts/instafeed.min.js")"></script>
+    <script type="text/javascript">
+        var feed = new Instafeed({
+            get: 'tagged',
+            tagName: 'RambergManufaktur',
+            clientId: 'a19ca725e1b247aabf1d29e4704987d5'
+        });
+        feed.run();
+    </script>
+}
 <div class="jumbotron">
     <h1>Ramberg Manufaktur</h1>
     <p class="lead">En fin nisjebutikk på Ramberg for kvinner og menn 25+</p>
@@ -28,4 +38,8 @@
         <p>Vi har et rikt utgalg av gardiner, og syr etter mål. Kontakt oss for et uforpliktende tilbud</p>
         <p><a class="btn btn-default" href="http://rambergmanufaktur.azurewebsites.net">Les mer &raquo;</a></p>
     </div>
+</div>
+
+<div class="row">
+    <div id="instafeed"></div>
 </div>
