@@ -1,4 +1,6 @@
-﻿#  AzureWebAppPublishModule.psm1 is a Windows PowerShell script module. This module exports Windows PowerShell functions that automate life cycle management for web applications. You can use the functions as is or customize them for your application and publishing environment.
+﻿#  AzureWebAppPublishModule.psm1 is a Windows PowerShell script module. This module exports Windows PowerShell functions that automate life cycle 
+#  management for web applications. 
+#  You can use the functions as is or customize them for your application and publishing environment.
 
 
 
