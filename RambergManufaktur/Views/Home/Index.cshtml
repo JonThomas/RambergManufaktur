@@ -1,16 +1,5 @@
 ﻿@{
-    ViewBag.Title = "Home Page";
-}
-@section Scripts{
-    <script type="text/javascript" src="@Url.Content("~/Scripts/instafeed.min.js")"></script>
-    <script type="text/javascript">
-        var feed = new Instafeed({
-            get: 'tagged',
-            tagName: 'RambergManufaktur',
-            clientId: 'a19ca725e1b247aabf1d29e4704987d5'
-        });
-        feed.run();
-    </script>
+    ViewBag.Title = "Hjem";
 }
 <div class="jumbotron">
     <h1>Ramberg Manufaktur</h1>
@@ -43,3 +32,15 @@
 <div class="row">
     <div id="instafeed"></div>
 </div>
+
+@section scripts{
+    @Scripts.Render("~/Scripts/instafeed.min.js")
+    <script type="text/javascript">
+        var feed = new Instafeed({
+            get: 'tagged',
+            tagName: 'RambergManufaktur',
+            clientId: 'a19ca725e1b247aabf1d29e4704987d5'
+        });
+        feed.run();
+    </script>
+}
