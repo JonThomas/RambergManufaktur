@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 
 namespace RambergManufaktur.Controllers
 {
@@ -13,16 +9,23 @@ namespace RambergManufaktur.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult OmRambergManufaktur()
         {
             ViewBag.Message = "Ramberg Manufaktur er eneste forhandler av klær og gardiner vest for Nappstraumen.";
 
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult Kontakt()
         {
             ViewBag.Message = "Ta gjerne kontakt dersom det er noe du lurer på.";
+
+            return View();
+        }
+
+        public ActionResult Gardiner()
+        {
+            ViewBag.Message = "Vi selger gardiner.";
 
             return View();
         }
