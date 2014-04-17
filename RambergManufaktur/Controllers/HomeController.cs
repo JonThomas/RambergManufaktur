@@ -29,5 +29,12 @@ namespace RambergManufaktur.Controllers
 
             return View();
         }
+
+        public ActionResult Dame()
+        {
+            ViewBag.Message = "Dameklær";
+
+            return View();
+        }
     }
 }
