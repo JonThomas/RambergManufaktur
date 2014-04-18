@@ -124,16 +124,25 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Images\BH.JPG" />
     <Content Include="Content\Images\gardiner.JPG" />
+    <Content Include="Content\Images\Jakker.JPG" />
     <Content Include="Content\Images\stoffer.JPG" />
+    <Content Include="Content\Images\Strompebukser.JPG" />
+    <Content Include="Content\Images\topper.JPG" />
     <Content Include="Content\Logoer\Elton.PNG" />
     <Content Include="Content\Logoer\gardelo.jpg" />
     <Content Include="Content\Logoer\Gladehjem.jpg" />
+    <Content Include="Content\Logoer\Jensen.PNG" />
     <Content Include="Content\Logoer\kirsch.gif" />
     <Content Include="Content\Logoer\LauRie.PNG" />
+    <Content Include="Content\Logoer\levolution.jpg" />
+    <Content Include="Content\Logoer\MacScott.PNG" />
     <Content Include="Content\Logoer\Nova_Textile.jpg" />
     <Content Include="Content\Logoer\Pagunette.JPG" />
     <Content Include="Content\Logoer\royal.png" />
+    <Content Include="Content\Logoer\Signature.jpg" />
+    <Content Include="Content\Logoer\Steeam.PNG" />
     <Content Include="Content\Logoer\trofé.PNG" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
