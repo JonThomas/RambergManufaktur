@@ -36,5 +36,12 @@ namespace RambergManufaktur.Controllers
 
             return View();
         }
+
+        public ActionResult Garn()
+        {
+            ViewBag.Message = "Garn";
+
+            return View();
+        }
     }
 }
