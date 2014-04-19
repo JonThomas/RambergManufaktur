@@ -128,6 +128,8 @@
     <Content Include="Content\Images\gardiner.JPG" />
     <Content Include="Content\Images\garn.JPG" />
     <Content Include="Content\Images\Jakker.JPG" />
+    <Content Include="Content\Images\NaeringsOgLokalsamfunnsPris2012.JPG" />
+    <Content Include="Content\Images\RambergManufaktur.JPG" />
     <Content Include="Content\Images\stoffer.JPG" />
     <Content Include="Content\Images\Strompebukser.JPG" />
     <Content Include="Content\Images\topper.JPG" />
@@ -141,6 +143,7 @@
     <Content Include="Content\Logoer\MacScott.PNG" />
     <Content Include="Content\Logoer\Nova_Textile.jpg" />
     <Content Include="Content\Logoer\Pagunette.JPG" />
+    <Content Include="Content\Logoer\RambergManufakturLogo.JPG" />
     <Content Include="Content\Logoer\royal.png" />
     <Content Include="Content\Logoer\Signature.jpg" />
     <Content Include="Content\Logoer\Steeam.PNG" />
