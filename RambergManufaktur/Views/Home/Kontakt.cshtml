@@ -4,36 +4,31 @@
 <h2>@ViewBag.Title</h2>
 @*<h3>@ViewBag.Message</h3>*@
 
-<div class="row">
+<div class="row" itemscope itemtype="http://schema.org/LocalBusiness">
     <div class="col-lg-4 col-md-4">
-        <address>
-            Ramberg Manufaktur<br />
-            8380 Ramberg<br />
-            <abbr title="Phone">Tlf:</abbr>760 93262<br />
-            <abbr title="Fax">Fax:</abbr>760 93765<br />
-        </address>
-        <address>
-            Epost: <a href="mailto:rambergmanufaktur@yahoo.no">RambergManufaktur@yahoo.no</a><br />
+        <address itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+            <span itemprop="name">Ramberg Manufaktur</span><br />
+            <span itemprop="postalCode">8380</span> <span itemprop="addressLocality">Ramberg</span><br />
+            <abbr title="Telefon">Tlf:</abbr> <span itemprop="telephone">760 93262</span><br />
+            <abbr title="Telefax">Fax:</abbr> <span itemprop="faxNumber">760 93765</span><br />
+            <br />
+            Epost: <a itemprop="email" href="mailto:rambergmanufaktur@yahoo.no">RambergManufaktur@yahoo.no</a><br />
+            Nettside: <a itemprop="url" href="http://www.rambergmanufaktur.no">http://www.RambergManufaktur.no</a><br />
             Bankkontonr: 4580.05.00773
         </address>
         <h3>Åpningstider:</h3>
-        <dl>
-            <dt>Mandag</dt>
-            <dd>09:00 - 16:00</dd>
-            <dt>Tirsdag</dt>
-            <dd>09:00 - 16:00</dd>
-            <dt>Onsdag</dt>
-            <dd>09:00 - 16:00</dd>
-            <dt>Torsdag</dt>
-            <dd>09:00 - 19:00</dd>
-            <dt>Fredag</dt>
-            <dd>09:00 - 16:00</dd>
-            <dt>Lørdag</dt>
-            <dd>10:00 - 14:00</dd>
-        </dl>
+        <table class="table table-condensed">
+            <tr><td><time itemprop="openingHours" datetime="Mo 09:00-16:00">Mandag</time></td><td>09:00 - 16:00</td></tr>
+            <tr><td><time itemprop="openingHours" datetime="Tu 09:00-16:00">Tirsdag</time></td><td>09:00 - 16:00</td></tr>
+            <tr><td><time itemprop="openingHours" datetime="We 09:00-16:00">Onsdag</time></td><td>09:00 - 16:00</td></tr>
+            <tr><td><time itemprop="openingHours" datetime="Th 09:00-16:00">Torsdag</time></td><td>09:00 - 19:00</td></tr>
+            <tr><td><time itemprop="openingHours" datetime="Fr 09:00-16:00">Fredag</time></td><td>09:00 - 16:00</td></tr>
+            <tr><td><time itemprop="openingHours" datetime="Sa 09:00-16:00">Lørdag</time></td><td>10:00 - 14:00</td></tr>
+        </table>
     </div>
     <div class="col-lg-8 col-md-8">
         <iframe title="Kart til Ramberg Manufaktur"
+                itemprop="map"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47638.63664820774!2d13.232728928051278!3d68.09142669750407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc9b784be7572cc11!2sRamberg+Manufaktur!5e0!3m2!1sno!2sno!4v1397589732708"
                 style="border:0;display:block;width:100%;height:400px;" />
     </div>
