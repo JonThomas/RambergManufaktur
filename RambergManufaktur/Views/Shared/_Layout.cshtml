@@ -8,40 +8,51 @@
     <title>@ViewBag.Title - Ramberg Manufaktur</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/Scripts/facebook.js")
 </head>
-<body>
-    <div class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a href="@Url.Action("Index", "Home")"><img src="/Content/Logoer/RambergManufakturLogo.JPG" class="navbar-brand" style="padding: 10px 10px 10px 15px;" /></a>
-                @*@Html.ActionLink("Ramberg Manufaktur", "Index", "Home", null, new { @class = "navbar-brand" })*@
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Dame", "Dame", "Home")</li>
-                    <li>@Html.ActionLink("Gardiner", "Gardiner", "Home")</li>
-                    <li>@Html.ActionLink("Garn", "Garn", "Home")</li>
-                    <li>@Html.ActionLink("Om oss", "OmRambergManufaktur", "Home")</li>
-                    <li>@Html.ActionLink("Kontakt", "Kontakt", "Home")</li>
-                </ul>
+    <body>
+        <div id="fb-root"></div>
+        <div class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="@Url.Action("Index", "Home")"><img src="/Content/Logoer/RambergManufakturLogo.JPG" class="navbar-brand" style="padding: 10px 10px 10px 15px;" /></a>
+                    @*@Html.ActionLink("Ramberg Manufaktur", "Index", "Home", null, new { @class = "navbar-brand" })*@
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li>@Html.ActionLink("Dame", "Dame", "Home")</li>
+                        <li>@Html.ActionLink("Gardiner", "Gardiner", "Home")</li>
+                        <li>@Html.ActionLink("Garn", "Garn", "Home")</li>
+                        <li>@Html.ActionLink("Om oss", "OmRambergManufaktur", "Home")</li>
+                        <li>@Html.ActionLink("Kontakt", "Kontakt", "Home")</li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="container body-content">
-        @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - Ramberg Manufaktur</p>
-        </footer>
-    </div>
+        <div class="container body-content">
+            @RenderBody()
+            <hr />
+            <footer>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-5">
+                            &copy; @DateTime.Now.Year - Ramberg Manufaktur
+                        </div>
+                        <div class="col-lg-7">
+                            Lik oss på Facebook: <span class="fb-like" data-href="https://www.facebook.com/rambergmanufaktur" data-width="400" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></span>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
 
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
-    @RenderSection("scripts", false)
-</body>
+        @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/bootstrap")
+        @RenderSection("scripts", false)
+    </body>
 </html>
