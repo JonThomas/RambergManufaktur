@@ -140,13 +140,11 @@
     <Content Include="Content\Logoer\kirsch.gif" />
     <Content Include="Content\Logoer\LauRie.PNG" />
     <Content Include="Content\Logoer\levolution.jpg" />
-    <Content Include="Content\Logoer\MacScott.PNG" />
     <Content Include="Content\Logoer\Nova_Textile.jpg" />
     <Content Include="Content\Logoer\Pagunette.JPG" />
     <Content Include="Content\Logoer\RambergManufakturLogo.JPG" />
     <Content Include="Content\Logoer\royal.png" />
     <Content Include="Content\Logoer\Signature.jpg" />
-    <Content Include="Content\Logoer\Steeam.PNG" />
     <Content Include="Content\Logoer\trofé.PNG" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
