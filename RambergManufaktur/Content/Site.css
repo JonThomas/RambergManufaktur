@@ -56,3 +56,7 @@ dd {
     padding: 0 0 0.5em 0;
     line-height: 15px;
   }
+table.julehatt { 
+    background:url("/Content/Images/julenisselue.png") no-repeat; 
+    background-size: 100% 100%;
+} 
