@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RambergManufaktur", "RambergManufaktur\RambergManufaktur.csproj", "{D129165B-DAF0-4CFB-8EA4-D3B91EDEEDF5}"
 EndProject
@@ -14,6 +14,13 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{7C7517C7-41D6-4D7D-A121-730B646E6AB1}"
 	ProjectSection(SolutionItems) = preProject
 		PublishScripts\Configurations\RambergManufaktur-WAWS-dev.json = PublishScripts\Configurations\RambergManufaktur-WAWS-dev.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{5C5412D1-4ABB-4352-8851-16C9A2E19023}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		gulpfile.js = gulpfile.js
+		package.json = package.json
 	EndProjectSection
 EndProject
 Global

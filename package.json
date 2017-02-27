@@ -1,0 +1,19 @@
+{
+  "name": "rambergmanufaktur",
+  "version": "1.0.0",
+  "description": "Webpage",
+  "main": "_ViewStart.cshtml",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonThomas/RambergManufaktur.git"
+  },
+  "author": "Jon-Thomas Eliassen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JonThomas/RambergManufaktur/issues"
+  },
+  "homepage": "https://github.com/JonThomas/RambergManufaktur#readme"
+}

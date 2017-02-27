@@ -153,7 +153,6 @@
     <Content Include="Content\Logoer\royal.png" />
     <Content Include="Content\Logoer\Signature.jpg" />
     <Content Include="Content\Logoer\trofé.PNG" />
-    <Content Include="Content\Logoer\Viking.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />

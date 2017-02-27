@@ -94,15 +94,17 @@ DocProject/Help/*.hhp
 DocProject/Help/Html2
 DocProject/Help/html
 
-# Click-Once directory
+# Publish
 publish/
-
-# Publish Web Output
+PublishProfiles/
 *.Publish.xml
 
 # NuGet Packages Directory
 ## TODO: If you have NuGet Package Restore enabled, uncomment the next line
 packages/
+
+# Node packages
+node_modules/
 
 # Windows Azure Build Output
 csx
