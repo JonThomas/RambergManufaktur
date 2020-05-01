@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RambergManufaktur", "RambergManufaktur\RambergManufaktur.csproj", "{D129165B-DAF0-4CFB-8EA4-D3B91EDEEDF5}"
 EndProject
@@ -19,7 +19,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{5C5412D1-4ABB-4352-8851-16C9A2E19023}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
-		gulpfile.js = gulpfile.js
 		package.json = package.json
 	EndProjectSection
 EndProject
@@ -39,5 +38,8 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{7C7517C7-41D6-4D7D-A121-730B646E6AB1} = {6DFFA688-32E8-427A-BF62-C89F7F9E2B02}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C499660F-EA50-4E21-8A1B-C5F415D69212}
 	EndGlobalSection
 EndGlobal
