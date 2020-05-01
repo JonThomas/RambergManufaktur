@@ -1,4 +1,5 @@
-﻿
+﻿using System.Web.Optimization;
+
 namespace RambergManufaktur
 {
     public class BundleConfig
